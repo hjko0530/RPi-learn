@@ -8,6 +8,14 @@ run_server: TCP_server_socket.cpp
 	./TCP_server_socket.o
 run_fork: fork.cpp
 	./fork.o
+compile_PIPE_client: PIPE_client.cpp
+	g++ PIPE_client.cpp -o PIPE_client.o
+compile_PIPE: PIPE.cpp
+	g++ PIPE.cpp -o PIPE.o
+run_PIPE: PIPE.cpp
+	./PIPE.o 
+run_PIPE_client: PIPE_client.cpp
+	./PIPE_client.o 
 .PHONY:clean
 clean:
 	rm *.o
