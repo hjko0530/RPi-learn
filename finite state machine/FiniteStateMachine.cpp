@@ -8,7 +8,11 @@ StateMachine::StateMachine(){
     newState = S_STOP;
 }
 void StateMachine::ST_Play() {
+<<<<<<< HEAD
     std::cout << "IIIIn sttaatte PLAY\t";
+=======
+    std::cout << "Innnnnn sttaatte PLAY\t";
+>>>>>>> d_branch
 }
 
 void StateMachine::ST_Pause() {
