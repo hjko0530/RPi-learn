@@ -53,14 +53,16 @@ int StateMachine::transistion(int cmd){
 }
 
 void StateMachine::stating(int state){
-    ST_func[state];
+    (this->*ST_func[state])();
 }
 
 void StateMachine::entering(int state){
-    EN_func[state];
+    (this->*EN_func[state])();
 }
 
 void StateMachine::exiting(int state){
-    EX_func[state];
+    (this->*EX_func[state])();
 }
+
+
 
