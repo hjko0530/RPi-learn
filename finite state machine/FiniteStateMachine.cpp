@@ -12,11 +12,9 @@ void StateMachine::ST_Play() {
 }
 
 void StateMachine::ST_Pause() {
-    std::cout << "In state PAUSE\n";
 }
 
 void StateMachine::ST_Stop() {
-    std::cout << "In state STOP\n";
 }
 
 // Exit functions
