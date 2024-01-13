@@ -12,7 +12,6 @@ void StateMachine::ST_Play() {
 }
 
 void StateMachine::ST_Pause() {
-    sd;
 }
 
 void StateMachine::ST_Stop() {
