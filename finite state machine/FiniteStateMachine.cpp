@@ -8,10 +8,11 @@ StateMachine::StateMachine(){
     newState = S_STOP;
 }
 void StateMachine::ST_Play() {
-    std::cout << "In state PLAY\n";
+    std::cout << "In state PLAY\t";
 }
 
 void StateMachine::ST_Pause() {
+    sd;
 }
 
 void StateMachine::ST_Stop() {
